@@ -17,7 +17,7 @@ let package = Package(
   dependencies: [
     .package(url: "https://github.com/ml-explore/mlx-swift", .upToNextMajor(from: "0.30.2")),
     // .package(url: "https://github.com/mlalma/eSpeakNGSwift", from: "1.0.1"),
-    .package(url: "https://github.com/mlalma/MisakiSwift", from: "1.0.6"),
+    .package(url: "https://github.com/andigisa/MisakiSwift", from: "1.1.0"),
     .package(url: "https://github.com/mlalma/MLXUtilsLibrary.git", from: "0.0.6")
   ],
   targets: [
